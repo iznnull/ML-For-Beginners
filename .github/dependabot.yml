@@ -1,0 +1,17 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 5
+  - package-ecosystem: "npm"
+    directory: "/quiz-app"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 5
+  - package-ecosystem: "pip"
+    directory: "/3-Web-App/1-Web-App/solution/web-app"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 5
